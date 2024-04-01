@@ -23,12 +23,7 @@ detectPalindrome = (str) => {
         comparisonStr += str.charAt(i);
     }
     console.log(`Flipped word: ${comparisonStr}`);
-    if (str === comparisonStr) {
-        return true;
-    } else {
-        return false;
-    }
-
+    return str === comparisonStr;
 }
 
 console.log("Enter a word to check if it's a palindrome");
